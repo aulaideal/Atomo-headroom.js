@@ -1,0 +1,22 @@
+/*--------------------------------------------------
+ESTILOS PARTICULA HEADROOM.JS
+--------------------------------------------------*/
+.animated.g-fixed-active {
+position: fixed !important;
+width: 100%;
+top: 0;
+z-index: 1003;
+left: 0;
+}
+.animated {
+-webkit-animation-duration: 0.5s;
+-moz-animation-duration: 0.5s;
+-ms-animation-duration: 0.5s;
+-o-animation-duration: 0.5s;
+animation-duration: 0.5s;
+-webkit-animation-fill-mode: both;
+-moz-animation-fill-mode: both;
+-ms-animation-fill-mode: both;
+-o-animation-fill-mode: both;
+animation-fill-mode: both;
+}
