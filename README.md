@@ -13,7 +13,7 @@ Modo de uso
 -----------
 + Diríjase al Base Outline (O a cualquier otro Outline), ingrese a la pestaña "Page Setting". 
 + Arrástre su átomo detro de la sección de "Átomos disponibles". 
-+ Configure su Átomo pendendiendo de los requerimientos.
++ Configure su Átomo dependiendo de sus requerimientos.
 
 Saludos
 http://www.aulaideal.com
