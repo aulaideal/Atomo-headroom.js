@@ -2,6 +2,10 @@ name: Headroom.js
 description: Configure Headroom.js (Fixed Header).
 type: atom
 
+configuration:
+  caching:
+    type: static
+
 form:
   fields:
     enabled:
