@@ -10,7 +10,6 @@ El modo de instalación es muy sencillo:
 + Cópie el archivo scss/_headroom.js.scss dentro de /custom/scss Ejemplo:  /g5_hydrogen/custom/scss
 + Cópie el archivo headroom.min.js y jQuery.headroom.js dentro de /custom/js Ejemplo:  /g5_hydrogen/custom/js
 # Modo de uso
------------
 + Diríjase al Base Outline (O a cualquier otro Outline), ingrese a la pestaña "Page Setting". 
 + Arrástre su átomo detro de la sección de "Átomos disponibles". 
 + Configure su Átomo dependiendo de sus requerimientos.
