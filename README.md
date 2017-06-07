@@ -1,5 +1,6 @@
 # Atomo "Headroom.js"
 Atomo para Gantry 5 que te permite incluir un encabezado animado tipo "Sticky Header" dentro de tu diseño. Proporciona múltiples opciones de configuración. 
+
 ![headeroom](https://user-images.githubusercontent.com/9434043/26899801-d420fe7e-4b95-11e7-9a4b-da1d08c4560e.png)
 
 Instalación
