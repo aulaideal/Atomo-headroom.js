@@ -2,10 +2,6 @@ name: Headroom.js
 description: Configure Headroom.js (Fixed Header).
 type: atom
 
-configuration:
-  caching:
-    type: static
-
 form:
   fields:
     enabled:
@@ -52,12 +48,7 @@ form:
         bounceInDown: bounceInDown
         bounceInLeft: bounceInLeft
         bounceInRight: bounceInRight
-        bounceInUp: bounceInUp
-        bounceOut: bounceOut
-        bounceOutDown: bounceOutDown
-        bounceOutLeft: bounceOutLeft
-        bounceOutRight: bounceOutRight
-        bounceOutUp: bounceOutUp
+        bounceInUp: bounceInUp        
         fadeIn: fadeIn
         fadeInDown: fadeInDown
         fadeInDownBig: fadeInDownBig
@@ -66,21 +57,10 @@ form:
         fadeInRight: fadeInRight
         fadeInRightBig: fadeInRightBig
         fadeInUp: fadeInUp
-        fadeInUpBig: fadeInUpBig
-        fadeOut: fadeOut
-        fadeOutDown: fadeOutDown
-        fadeOutDownBig: fadeOutDownBig
-        fadeOutLeft: fadeOutLeft
-        fadeOutLeftBig: fadeOutLeftBig
-        fadeOutRight: fadeOutRight
-        fadeOutRightBig: fadeOutRightBig
-        fadeOutUp: fadeOutUp
-        fadeOutUpBig: fadeOutUpBig
+        fadeInUpBig: fadeInUpBig        
         flip: flip
         flipInX: flipInX
-        flipInY: flipInY
-        flipOutX: flipOutX
-        flipOutY: flipOutY
+        flipInY: flipInY       
         lightSpeedIn: lightSpeedIn
         lightSpeedOut: lightSpeedOut
         rotateIn: rotateIn
@@ -88,32 +68,17 @@ form:
         rotateInDownRight: rotateInDownRight
         rotateInUpLeft: rotateInUpLeft
         rotateInUpRight: rotateInUpRight
-        rotateOut: rotateOut
-        rotateOutDownLeft: rotateOutDownLeft
-        rotateOutDownRight: rotateOutDownRight
-        rotateOutUpLeft: rotateOutUpLeft
-        rotateOutUpRight: rotateOutUpRight
         slideInUp: slideInUp
         slideInDown: slideInDown
         slideInLeft: slideInLeft
-        slideInRight: slideInRight
-        slideOutUp: slideOutUp
-        slideOutDown: slideOutDown
-        slideOutLeft: slideOutLeft
-        slideOutRight: slideOutRight
+        slideInRight: slideInRight        
         zoomIn: zoomIn
         zoomInDown: zoomInDown
         zoomInLeft: zoomInLeft
         zoomInRight: zoomInRight
         zoomInUp: zoomInUp
-        zoomOut: zoomOut
-        zoomOutDown: zoomOutDown
-        zoomOutLeft: zoomOutLeft
-        zoomOutRight: zoomOutRight
-        zoomOutUp: zoomOutUp
         hinge: hinge
         rollIn: rollIn
-        rollOut: rollOut
     animationbajascroll:
       type: select.select
       label: Efecto de salida
@@ -129,25 +94,11 @@ form:
         tada: tada
         wobble: wobble
         jello: jello
-        bounceIn: bounceIn
-        bounceInDown: bounceInDown
-        bounceInLeft: bounceInLeft
-        bounceInRight: bounceInRight
-        bounceInUp: bounceInUp
         bounceOut: bounceOut
         bounceOutDown: bounceOutDown
         bounceOutLeft: bounceOutLeft
         bounceOutRight: bounceOutRight
-        bounceOutUp: bounceOutUp
-        fadeIn: fadeIn
-        fadeInDown: fadeInDown
-        fadeInDownBig: fadeInDownBig
-        fadeInLeft: fadeInLeft
-        fadeInLeftBig: fadeInLeftBig
-        fadeInRight: fadeInRight
-        fadeInRightBig: fadeInRightBig
-        fadeInUp: fadeInUp
-        fadeInUpBig: fadeInUpBig
+        bounceOutUp: bounceOutUp       
         fadeOut: fadeOut
         fadeOutDown: fadeOutDown
         fadeOutDownBig: fadeOutDownBig
@@ -157,43 +108,25 @@ form:
         fadeOutRightBig: fadeOutRightBig
         fadeOutUp: fadeOutUp
         fadeOutUpBig: fadeOutUpBig
-        flip: flip
-        flipInX: flipInX
-        flipInY: flipInY
+        flip: flip        
         flipOutX: flipOutX
-        flipOutY: flipOutY
-        lightSpeedIn: lightSpeedIn
-        lightSpeedOut: lightSpeedOut
-        rotateIn: rotateIn
-        rotateInDownLeft: rotateInDownLeft
-        rotateInDownRight: rotateInDownRight
-        rotateInUpLeft: rotateInUpLeft
-        rotateInUpRight: rotateInUpRight
+        flipOutY: flipOutY        
+        lightSpeedOut: lightSpeedOut       
         rotateOut: rotateOut
         rotateOutDownLeft: rotateOutDownLeft
         rotateOutDownRight: rotateOutDownRight
         rotateOutUpLeft: rotateOutUpLeft
-        rotateOutUpRight: rotateOutUpRight
-        slideInUp: slideInUp
-        slideInDown: slideInDown
-        slideInLeft: slideInLeft
-        slideInRight: slideInRight
+        rotateOutUpRight: rotateOutUpRight       
         slideOutUp: slideOutUp
         slideOutDown: slideOutDown
         slideOutLeft: slideOutLeft
-        slideOutRight: slideOutRight
-        zoomIn: zoomIn
-        zoomInDown: zoomInDown
-        zoomInLeft: zoomInLeft
-        zoomInRight: zoomInRight
-        zoomInUp: zoomInUp
+        slideOutRight: slideOutRight        
         zoomOut: zoomOut
         zoomOutDown: zoomOutDown
         zoomOutLeft: zoomOutLeft
         zoomOutRight: zoomOutRight
         zoomOutUp: zoomOutUp
         hinge: hinge
-        rollIn: rollIn
         rollOut: rollOut
     mobile:
       type: select.select
