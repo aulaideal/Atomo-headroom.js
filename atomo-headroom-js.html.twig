@@ -23,7 +23,7 @@
                         });
 
                         var stickyOffset = $('{{ particle.cssselector|e }}').offset().top;                
-                        var stickyContainerHeight = $('{{ particle.cssselector|e }}').height();
+                        var stickyContainerHeight = $('{{ particle.cssselector|e }}').outerHeight();
 
                         $('{{ particle.cssselector|e }}').wrap( "<div class='g-fixed-container'><\/div>" );
                         $('.g-fixed-container').css("height", stickyContainerHeight);
